@@ -1,0 +1,51 @@
+body, html{
+    width: 100%;
+    margin: 0;
+    
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    min-height: 89vh;
+    z-index: 99;
+    
+}
+#principal{
+    text-align: center;
+    width: 50%;
+    min-height: 300px;
+    max-height: 89vh;
+}
+
+#mostrarColor{
+    border: solid 1px black;
+    min-height: 300px;
+    background-color: white;
+}
+
+#lista{
+    width: 50%;
+    text-align: center;
+    max-height: 89vh;
+    overflow-y: scroll;
+}
+
+#lista p {
+    border: solid black 1px;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h2,h1{
+    color: white;
+}
